@@ -1,0 +1,16 @@
+<html>
+<head><title>Demo Syllabus</title></head>
+<body>
+<h1>Demo Subject - Syllabus</h1>
+<h2>Course Overview</h2>
+<p>This is a demo syllabus document generated for testing the download and view functionality.</p>
+<h3>Modules:</h3>
+<ul>
+  <li>Module 1: Introduction</li>
+  <li>Module 2: Core Concepts</li>
+  <li>Module 3: Advanced Topics</li>
+  <li>Module 4: Project Work</li>
+</ul>
+<p><strong>Note:</strong> This is a standard .doc format file.</p>
+</body>
+</html>

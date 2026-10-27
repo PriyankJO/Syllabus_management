@@ -1,0 +1,474 @@
+[{
+  "_id": {
+    "$oid": "6ab15e110ef05c8417a641ec"
+  },
+  "userCode": "U001",
+  "name": "System Admin",
+  "email": "admin@spc.edu",
+  "password": "$2b$10$Xss/R.win81bFVE.VKCONu6k4red5N4Z4.abkU3GZkyFJq9kvXhMO",
+  "role": "ADMIN",
+  "phone": "9876543210",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-21T16:40:49.074Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-21T16:40:49.074Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab15e110ef05c8417a641ed"
+  },
+  "userCode": "HOD001",
+  "name": "Dr. Sarah Jenkins (HOD)",
+  "email": "hod_english@spc.edu",
+  "password": "$2b$10$9EQU9J9QUqsQJXE6zBTGDe6IEX/RnZtadIcNhxQqLOUtzk4nPWmWm",
+  "role": "HOD",
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641fc"
+  },
+  "phone": "9876543211",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-21T16:40:49.150Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-22T08:42:26.553Z"
+  },
+  "__v": 0,
+  "designation": "Professor",
+  "mustChangePassword": false
+},
+{
+  "_id": {
+    "$oid": "6ab15e110ef05c8417a641ee"
+  },
+  "userCode": "HOD002",
+  "name": "Dr. Robert Chen (HOD)",
+  "email": "hod_math@spc.edu",
+  "password": "$2b$10$iwTN7Dt7nBVRTcLIi1z9OuylPENnx4DJaJmOIJ.MitlTpwC7eiSNK",
+  "role": "HOD",
+  "phone": "9876543212",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-21T16:40:49.220Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-22T08:00:10.588Z"
+  },
+  "__v": 0,
+  "department": {
+    "$oid": "6ab15e120ef05c8417a64200"
+  },
+  "mustChangePassword": false,
+  "designation": "Associate Professor"
+},
+{
+  "_id": {
+    "$oid": "6ab15e110ef05c8417a641ef"
+  },
+  "userCode": "HOD003",
+  "name": "Dr. Emily Carter (HOD)",
+  "email": "hod_commerce@spc.edu",
+  "password": "$2b$10$OaKdq8Ufoo7WFIhPUxlV8.AH4/yde4izcc9GsHIXtKFlcwxlclEA2",
+  "role": "HOD",
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641fe"
+  },
+  "phone": "9876543213",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-21T16:40:49.286Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-22T08:05:10.946Z"
+  },
+  "__v": 0,
+  "mustChangePassword": false,
+  "designation": "Senior Lecturer"
+},
+{
+  "_id": {
+    "$oid": "6ab15e110ef05c8417a641f0"
+  },
+  "userCode": "FAC001",
+  "name": "Prof. Jane Smith",
+  "email": "faculty@spc.edu",
+  "password": "$2b$10$kFTvJWtMQCj89/gMxyCjx.YtQxkfNs1vqnLqb6tZ1mWJYTL.z4NHu",
+  "role": "FACULTY",
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641fc"
+  },
+  "designation": "Assistant Professor",
+  "phone": "9876543220",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-21T16:40:49.352Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-21T16:40:49.352Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab15e110ef05c8417a641f1"
+  },
+  "userCode": "FAC002",
+  "name": "Prof. Mark Davis",
+  "email": "mark.davis@spc.edu",
+  "password": "$2b$10$MTr5Caf8v3YcwGIqE9RWEuwchESKEZWyY2P5BjivdQ1mX1xsYmFmq",
+  "role": "FACULTY",
+  "designation": "Associate Professor",
+  "phone": "9876543221",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-21T16:40:49.418Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-22T08:06:40.787Z"
+  },
+  "__v": 0,
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641ff"
+  },
+  "mustChangePassword": false
+},
+{
+  "_id": {
+    "$oid": "6ab15e110ef05c8417a641f2"
+  },
+  "userCode": "FAC003",
+  "name": "Prof. Laura Wilson",
+  "email": "laura.wilson@spc.edu",
+  "password": "$2b$10$z8oExfsK9DPQY4wdypcETuBi4a6nk0qo82kHLNkPL8BsTC/v0/j.2",
+  "role": "FACULTY",
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641fe"
+  },
+  "designation": "Assistant Professor",
+  "phone": "9876543222",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-21T16:40:49.483Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-21T16:40:49.483Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab15e110ef05c8417a641f3"
+  },
+  "userCode": "FAC004",
+  "name": "Prof. Kevin Moore",
+  "email": "kevin.moore@spc.edu",
+  "password": "$2b$10$HW0b6FF6S2qfS72jlR8apOJU93VWjOSyFvh7fdHDhqxRF1peYZyMu",
+  "role": "FACULTY",
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641ff"
+  },
+  "designation": "Senior Lecturer",
+  "phone": "9876543223",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-21T16:40:49.551Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-21T16:40:49.551Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab15e110ef05c8417a641f4"
+  },
+  "userCode": "STU001",
+  "name": "Arun Kumar Test",
+  "email": "student@spc.edu",
+  "password": "$2b$10$TiRfdJO3Lxug2H2MCx.NwupEiJBXpEgQX1Wwy/bbB2rha.aYLLJ.G",
+  "role": "STUDENT",
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641fc"
+  },
+  "semester": 3,
+  "academicYear": "2026",
+  "phone": "9876543301",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-21T16:40:49.617Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-22T08:09:40.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab15e110ef05c8417a641f5"
+  },
+  "userCode": "STU002",
+  "name": "Priya Sharma",
+  "email": "priya@spc.edu",
+  "password": "$2b$10$HTiSVXmuuklFuXe7hIrv2u3iJgsZXU7VA2x6wZBFC2rwtTVXvfMsK",
+  "role": "STUDENT",
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641fc"
+  },
+  "semester": 3,
+  "academicYear": "2026",
+  "phone": "9876543302",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-21T16:40:49.684Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-21T16:40:49.684Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab15e110ef05c8417a641f6"
+  },
+  "userCode": "STU003",
+  "name": "Rahul Verma",
+  "email": "rahul@spc.edu",
+  "password": "$2b$10$wax8MQY/v1.GS3lZv5upn.1q8vvBmvst2ZFIBUJouWB6nWkW2xn56",
+  "role": "STUDENT",
+  "semester": 5,
+  "academicYear": "2026",
+  "phone": "9876543303",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-21T16:40:49.749Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-22T07:06:26.902Z"
+  },
+  "__v": 0,
+  "department": {
+    "$oid": "6ab15e120ef05c8417a64200"
+  },
+  "mustChangePassword": false
+},
+{
+  "_id": {
+    "$oid": "6ab15e110ef05c8417a641f7"
+  },
+  "userCode": "STU004",
+  "name": "Anita Desai",
+  "email": "anita@spc.edu",
+  "password": "$2b$10$KobYh921fIpPQwwRnHab8OUOqXuB7KXfDwF4oagzSE.07.pcEaIDu",
+  "role": "STUDENT",
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641fe"
+  },
+  "semester": 1,
+  "academicYear": "2026",
+  "phone": "9876543304",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-21T16:40:49.813Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-21T16:40:49.813Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab15e110ef05c8417a641f8"
+  },
+  "userCode": "STU005",
+  "name": "Vikram Singh",
+  "email": "vikram@spc.edu",
+  "password": "$2b$10$kAJtRRlhdgBJ34poNJFFauCQhZVi/3tqBtYX8MJmgXYJa85ncMKF6",
+  "role": "STUDENT",
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641ff"
+  },
+  "semester": 3,
+  "academicYear": "2026",
+  "phone": "9876543305",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-21T16:40:49.878Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-21T16:40:49.878Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab15e110ef05c8417a641f9"
+  },
+  "userCode": "STU006",
+  "name": "Meera Reddy",
+  "email": "meera@spc.edu",
+  "password": "$2b$10$G3845b7iqeWjCYmDTeK5Qeb818yDsgcAtQfr8HEWYlIAM2hLavIRG",
+  "role": "STUDENT",
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641fc"
+  },
+  "semester": 5,
+  "academicYear": "2026",
+  "phone": "9876543306",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-21T16:40:49.945Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-21T16:40:49.945Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab15e120ef05c8417a641fa"
+  },
+  "userCode": "STU007",
+  "name": "Sanjay Patel",
+  "email": "sanjay@spc.edu",
+  "password": "$2b$10$JlEP0tlMo4bwFm/bAbZnOeZ6giHozq7mxJ67WOD7.C4KovRfSvOyu",
+  "role": "STUDENT",
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641fe"
+  },
+  "semester": 3,
+  "academicYear": "2026",
+  "phone": "9876543307",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-21T16:40:50.011Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-21T16:40:50.011Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab15e120ef05c8417a641fb"
+  },
+  "userCode": "STU008",
+  "name": "Kavita Nair",
+  "email": "kavita@spc.edu",
+  "password": "$2b$10$NNzBcfz18/MoKNBpQBVLOuKOYfy9QlZqyjdaqeDqMc66BVT/kSfI2",
+  "role": "STUDENT",
+  "semester": 1,
+  "academicYear": "2026",
+  "phone": "9876543308",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-21T16:40:50.076Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-22T07:57:05.578Z"
+  },
+  "__v": 0,
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641ff"
+  },
+  "mustChangePassword": false
+},
+{
+  "_id": {
+    "$oid": "6ab367cd16dbe11a5dd219d3"
+  },
+  "userCode": "DEMOtest",
+  "name": "Hod test",
+  "email": "hodtest@gmail.com",
+  "password": "$2b$10$ILXOALtzNlY90UhH2BM0j.mb90WgHu69CcNDb3X3BZuvSIu8kxyja",
+  "role": "HOD",
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641fe"
+  },
+  "mustChangePassword": true,
+  "designation": "Senior Lecturer",
+  "phone": "",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-23T05:46:53.136Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-23T06:05:03.436Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab36f5c9e5c110c96ba0373"
+  },
+  "userCode": "TEST",
+  "name": "testing",
+  "email": "testing@gmail.com",
+  "password": "$2b$10$WkDdZOqTkAsHt68IBxroy.KTohZ/dLePsW8ESFyfW8XjEfO1dQF7G",
+  "role": "STUDENT",
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641fe"
+  },
+  "mustChangePassword": true,
+  "semester": 1,
+  "phone": "",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-09-23T06:19:08.250Z"
+  },
+  "updatedAt": {
+    "$date": "2026-09-23T06:19:08.250Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6abf8954f4d46421fb1adbfc"
+  },
+  "userCode": "STU1997",
+  "name": "DEMOTEST",
+  "email": "demotest@gmail.com",
+  "password": "$2b$10$t4FgQb806pkVbygKAY4KIe8SAsCoX7OWMddBk/aypLbf8a66kVYF2",
+  "role": "STUDENT",
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641ff"
+  },
+  "mustChangePassword": true,
+  "semester": 1,
+  "phone": "",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-10-02T10:37:08.607Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-02T10:37:08.607Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6abf89abf4d46421fb1adc00"
+  },
+  "userCode": "FAC7487",
+  "name": "demotest",
+  "email": "demotest1@gmail.com",
+  "password": "$2b$10$UP/akMbZqXCze8BcX8q8uu97C8E5K9arkkPMoLlyMZApFdEZTofie",
+  "role": "FACULTY",
+  "department": {
+    "$oid": "6ab15e120ef05c8417a641fc"
+  },
+  "mustChangePassword": true,
+  "designation": "Professor",
+  "phone": "",
+  "status": "Active",
+  "createdAt": {
+    "$date": "2026-10-02T10:38:35.722Z"
+  },
+  "updatedAt": {
+    "$date": "2026-10-02T10:38:35.722Z"
+  },
+  "__v": 0
+}]

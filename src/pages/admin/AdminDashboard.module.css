@@ -1,0 +1,162 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+/* Staggered Animations */
+.statsGrid > * {
+  animation: fadeUp 0.5s ease-out forwards;
+  opacity: 0;
+}
+.statsGrid > *:nth-child(1) { animation-delay: 0.1s; }
+.statsGrid > *:nth-child(2) { animation-delay: 0.2s; }
+.statsGrid > *:nth-child(3) { animation-delay: 0.3s; }
+.statsGrid > *:nth-child(4) { animation-delay: 0.4s; }
+.statsGrid > *:nth-child(5) { animation-delay: 0.5s; }
+.statsGrid > *:nth-child(6) { animation-delay: 0.6s; }
+
+.chartsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: var(--spacing-lg);
+  animation: fadeUp 0.6s ease-out forwards;
+  animation-delay: 0.4s;
+  opacity: 0;
+}
+
+.chartCard {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chartCard:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.chartCard h3 {
+  margin-bottom: var(--spacing-xl);
+  color: var(--color-text-main);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.chartWrapper {
+  height: 300px;
+}
+
+.recentSection {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-border);
+  animation: fadeUp 0.6s ease-out forwards;
+  animation-delay: 0.6s;
+  opacity: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recentSection:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.recentSection h3 {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text-main);
+  font-size: 1.1rem;
+}
+
+.activityList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.activityItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-sm) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.activityItem:last-child {
+  border-bottom: none;
+}
+
+.activityIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activityContent p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--color-text-main);
+}
+
+.activityContent span {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.welcomeText {
+  margin: 0;
+  color: var(--color-text-main);
+  font-size: 2rem;
+  animation: slideInRight 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  opacity: 0;
+}
+
+.highlightName {
+  color: var(--color-primary);
+  display: inline-block;
+  animation: popIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes popIn {
+  0% { opacity: 0; transform: scale(0.8); }
+  70% { transform: scale(1.05); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+@media (max-width: 768px) {
+  .chartsGrid {
+    grid-template-columns: 1fr;
+  }
+}
